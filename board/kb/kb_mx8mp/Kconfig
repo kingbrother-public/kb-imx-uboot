@@ -1,0 +1,14 @@
+if TARGET_KB_MX8MP_LPDDR4_EVK
+
+config SYS_BOARD
+	default "kb_mx8mp"
+
+config SYS_VENDOR
+	default "kb"
+
+config SYS_CONFIG_NAME
+	default "kb_mx8mp"
+
+source "board/kb/common/Kconfig"
+
+endif
